@@ -1,0 +1,231 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c3242f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #d6b56e;
+  color: #272425;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #272425;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #c3242f;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+section button {
+  background-color: #272425;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+section button:hover {
+  background-color: #fff;
+  color: #272425;
+  transition: all 0.2s ease-in-out;
+}
+
+footer {
+  background-color: #272425;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#logo {
+  animation: rotate 2s infinite linear;
+  height: 100px;
+  width: 100px;
+}
+
+#banner {
+  background-image: url("/Images/Logo.png");
+  background-position: center;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.Products img {
+  width: 20vw;
+  height: 20vw;
+  padding: 2rem;
+}
+
+.product img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(5px, 0);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(-5px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button.buy-now {
+  background-color: #d6b56e;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button.buy-now:hover {
+  background-color: #c3242f;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes heartbeat {
+  30% {
+    transform: scale(1);
+  }
+
+  40% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the banner image */
+.banner img {
+  animation-name: rotate;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#banner:hover {
+  animation: scale 2s;
+  animation-iteration-count: infinite;
+}
+
+.heart-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.heart {
+  width: 50vw;
+  background-position: center;
+  background-image: url("/Images/heart.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%;
+  height: 60vh;
+}
+.beer {
+  width: 50vw;
+  background-position: center;
+  background-image: url("/Images/Stella.avif");
+  background-repeat: no-repeat;
+  background-size: 23%;
+}
+
+.heart {
+  animation: heartbeat 1s infinite;
+}
+
+.beer {
+  animation: heartbeat 1s infinite;
+}
+
+.center:hover {
+  text-align: center;
+}
