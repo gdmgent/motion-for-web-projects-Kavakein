@@ -85,7 +85,7 @@ footer {
 }
 
 #banner {
-  background-image: url("/Images/Logo.png");
+  background-image: url("/Animated\ Product/Images/Logo.png");
   background-position: center;
   background-size: 20%;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ button.buy-now:hover {
 .heart {
   width: 50vw;
   background-position: center;
-  background-image: url("/Images/heart.jpg");
+  background-image: url("/Animated\ Product//Images/heart.jpg");
   background-repeat: no-repeat;
   background-size: 30%;
   height: 60vh;
@@ -213,7 +213,7 @@ button.buy-now:hover {
 .beer {
   width: 50vw;
   background-position: center;
-  background-image: url("/Images/Stella.avif");
+  background-image: url("/Animated\ Product//Images/Stella.avif");
   background-repeat: no-repeat;
   background-size: 23%;
 }
