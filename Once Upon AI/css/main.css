@@ -30,18 +30,19 @@ nav ul li a:hover {
   background-color: black;
 }
 
-.hoofdstuk-1 {
+.parallax {
   width: 100vw;
   height: 100vh;
   background: url("../images/parralax.png");
-  background-size: 25%;
+  background-size: 20%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.hoofdstuk-1 h2 {
+.tekst h2 {
   margin: auto;
+  width: 100vw;
   padding: 10px;
   background-color: hsl(0, 0%, 42%);
   color: white;
