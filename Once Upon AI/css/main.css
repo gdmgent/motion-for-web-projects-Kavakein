@@ -54,10 +54,11 @@ nav ul li a:hover {
 
 /* Styling the content or paragraph */
 .para-1 {
+  display: flex;
   padding: 50px;
-  background-color: black;
   color: white;
-  font-size: 17px;
+  font-size: 1.25rem;
+  width: 33vw;
 }
 
 /* Styling the content or paragraph */
