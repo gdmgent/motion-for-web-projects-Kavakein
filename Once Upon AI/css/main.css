@@ -1,13 +1,13 @@
-/* Styling the body */
 * {
   margin: 0px;
   padding: 0px;
 }
 body {
   background: url("../images/sky.png");
+  font-family: "input-mono", monospace;
+  font-weight: 500;
 }
 
-/* Stijl voor de header */
 header {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
@@ -15,24 +15,21 @@ header {
   text-align: center;
 }
 
-/* Stijl voor de lijstitems (li) in het navigatiemenu */
 nav ul li {
   display: inline-block;
   margin-right: 30px;
 }
 
-/* Stijl voor de links (a) in het navigatiemenu */
 nav ul li a {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
 
-/* Stijl voor de links (a) in het navigatiemenu bij hover */
 nav ul li a:hover {
-  text-decoration: underline;
+  color: greenyellow;
+  background-color: black;
 }
 
-/* Styling the first parallax's height, width and background color */
 .hoofdstuk-1 {
   width: 100vw;
   height: 100vh;
@@ -43,30 +40,31 @@ nav ul li a:hover {
   background-position: center;
 }
 
-/* Styling the title of first parallax */
 .hoofdstuk-1 h2 {
   margin: auto;
   padding: 10px;
   background-color: hsl(0, 0%, 42%);
   color: white;
   text-align: center;
+  font-family: "android assassin";
+  letter-spacing: 3px;
 }
 
-/* Styling the content or paragraph */
-.para-1 {
+.para {
   display: flex;
-  padding: 50px;
-  color: white;
+}
+
+.para-1 {
+  padding: 3rem;
+  color: greenyellow;
   font-size: 1.25rem;
   width: 33vw;
 }
 
-/* Styling the content or paragraph */
 .para-2 {
-  text-align: center;
-  padding: 25px;
-  font-size: 17px;
-  font-family: Verdana;
-  background-color: black;
-  color: white;
+  padding: 3rem;
+  color: greenyellow;
+  font-size: 1.25rem;
+  width: 33vw;
+  align-self: flex-end;
 }
