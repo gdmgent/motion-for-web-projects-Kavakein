@@ -4,6 +4,9 @@
 }
 body {
   background: url("../images/sky.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "input-mono", monospace;
   font-weight: 500;
   max-width: 100%;
