@@ -4,8 +4,15 @@
 }
 body {
   background: url("../images/sky.png");
+  background-size: 100%;
   font-family: "input-mono", monospace;
   font-weight: 500;
+}
+
+body img {
+  width: 50vw;
+  height: 50vh;
+  float: right;
 }
 
 header {
@@ -13,6 +20,7 @@ header {
   color: hsl(0, 0%, 100%);
   padding: 20px;
   text-align: center;
+  position: fixed;
 }
 
 nav ul li {
@@ -27,14 +35,13 @@ nav ul li a {
 
 nav ul li a:hover {
   color: greenyellow;
-  background-color: black;
 }
 
 .parallax {
   width: 100vw;
   height: 100vh;
-  background: url("../images/parralax.png");
-  background-size: 20%;
+  background: url("../images/parallax.jpg");
+  background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -54,6 +61,7 @@ nav ul li a:hover {
 .para-1 {
   padding: 3rem;
   color: greenyellow;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   width: 33vw;
+  height: 100vh;
 }

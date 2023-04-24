@@ -6,7 +6,6 @@ images.forEach((img) => {
       trigger: img,
       toggleActions: "play reverse plat reset",
       start: "top 80%",
-      end: "bottom 20%",
     },
     duration: 0.5,
     x: 200,
@@ -16,8 +15,8 @@ images.forEach((img) => {
 
 let hoofdstuk = gsap.utils.toArray("img");
 
-images.forEach((img) => {
-  gsap.from(img, {
+images.forEach((chapter) => {
+  gsap.from(chapter, {
     scrollTrigger: {
       trigger: chapters,
       toggleActions: "play reverse plat reset",
