@@ -3,10 +3,10 @@
   padding: 0px;
 }
 body {
-  background: url("../images/sky.png");
-  background-size: 100%;
+  background: url("../images/sky.jpg");
   font-family: "input-mono", monospace;
   font-weight: 500;
+  max-width: 100%;
 }
 
 body img {
